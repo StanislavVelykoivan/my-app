@@ -4,20 +4,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img className='img' src='https://upload.wikimedia.org/wikipedia/commons/5/53/Lada_Niva_2016_IMG_8387.jpg'></img>
+      <p>Великоіван Станіслав</p>
     </div>
   );
 }
